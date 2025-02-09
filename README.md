@@ -74,7 +74,7 @@ Bu bölümde uygulamada kullanılan temel tanımlamalar mevcuttur. Her biri içi
 - **Backend**: .NET Core, Entity Framework Core, MSSQL
 - **Frontend**: Typescript, Angular, DevExtreme
 - **Mimari**: N Katmanlı Mimari
-- **Kimlik Doğrulama: JWT
+- **Kimlik Doğrulama**: JWT
 - **API**: REST API
 
 ## Kod Kalitesi ve Yazılım Prensipleri  
