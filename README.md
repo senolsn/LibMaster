@@ -76,7 +76,7 @@ Bu bölümde uygulamada kullanılan temel tanımlamalar mevcuttur. Her biri içi
 - **Mimari**: N Katmanlı Mimari
 - **API**: REST API
 
-### Kod Kalitesi ve Yazılım Prensipleri  
+## Kod Kalitesi ve Yazılım Prensipleri  
 
 Proje geliştirilirken **temiz kod (Clean Code)** anlayışına bağlı kalınmış ve aşağıdaki yazılım prensipleri uygulanmıştır:  
 
