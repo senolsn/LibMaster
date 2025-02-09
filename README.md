@@ -10,7 +10,7 @@ Bu proje, kütüphanelerin kitap yönetimini kolaylaştırmak için geliştirilm
 Burada örnek olarak **Kitap Tanım** ekranı gösterilmektedir. Daha fazla bilgi için aşağıdaki **Tanımlar** bölümüne göz atabilirsiniz.
 
 #### 📷 Kitap Ekleme Ekranı
-![Kitap Ekleme Ekranı]([https://example.com/kitap-ekleme-ekrani.png](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/KitapTanim.png))
+![Kitap Ekleme Ekranı](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/KitapTanim.png)
 
 ### 2. Ödünç Alma & Verme İşlemleri
 Kütüphaneden kitap ödünç alma ve geri verme işlemlerinin yönetildiği ekrandır.
