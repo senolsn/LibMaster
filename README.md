@@ -6,11 +6,11 @@ Bu proje, kütüphanelerin kitap yönetimini kolaylaştırmak için geliştirilm
 
 ## Proje İçeriği
 
-### 1. Kitap Ekleme Ekranı
-Kitapların eklendiği, güncellendiği ve yönetildiği ekrandır.
+### 1. Tanım Ekranları
+Burada örnek olarak **Kitap Tanım** ekranı gösterilmektedir. Daha fazla bilgi için aşağıdaki **Tanımlar** bölümüne göz atabilirsiniz.
 
 #### 📷 Kitap Ekleme Ekranı
-_(Buraya kitap ekleme ekranının resmi eklenmelidir)_
+![Kitap Ekleme Ekranı](https://example.com/kitap-ekleme-ekrani.png)
 
 ### 2. Ödünç Alma & Verme İşlemleri
 Kütüphaneden kitap ödünç alma ve geri verme işlemlerinin yönetildiği ekrandır.
