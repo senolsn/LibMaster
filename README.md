@@ -1,6 +1,6 @@
 # LibMaster (Kütüphane Yönetim Sistemi)
 
-Bu proje, kütüphanelerin kitap yönetimini kolaylaştırmak için geliştirilmiş bir uygulamadır. Kullanıcılar kitap ekleyebilir, ödünç alabilir, raporları inceleyebilir ve sistem ayarlarını özelleştirebilir. Ayrıca her tablodaki veriler **Excel formatında içe ve dışa aktarılabilir.
+Bu proje, kütüphanelerin kitap yönetimini kolaylaştırmak için geliştirilmiş bir uygulamadır. Kullanıcılar kitap ekleyebilir, ödünç alabilir, raporları inceleyebilir ve sistem ayarlarını özelleştirebilir. Ayrıca her tablodaki veriler **Excel formatında içe ve dışa aktarılabilir**.
 
 ---
 
