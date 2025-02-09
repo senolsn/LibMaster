@@ -72,9 +72,21 @@ Bu bölümde uygulamada kullanılan temel tanımlamalar mevcuttur. Her biri içi
 
 ## Kullanılan Teknolojiler
 - **Backend**: .NET Core, Entity Framework Core, MSSQL
-- **Frontend**: Angular, DevExtreme Componentleri
+- **Frontend**: Typescript, Angular, DevExtreme
 - **Mimari**: N Katmanlı Mimari
 - **API**: REST API
+
+### Kod Kalitesi ve Yazılım Prensipleri  
+
+Proje geliştirilirken **temiz kod (Clean Code)** anlayışına bağlı kalınmış ve aşağıdaki yazılım prensipleri uygulanmıştır:  
+
+- **DRY (Don't Repeat Yourself)** – Tekrar eden kod bloklarından kaçınılarak, kodun daha okunabilir ve sürdürülebilir olması sağlanmıştır.  
+- **SOLID Prensipleri** – Yazılımın esnek, modüler ve genişletilebilir olması için uygulanmıştır.  
+- **KISS (Keep It Simple, Stupid)** – Gereksiz karmaşıklıktan kaçınılarak, basit ve anlaşılır kod yazımı hedeflenmiştir.  
+- **YAGNI (You Ain’t Gonna Need It)** – İhtiyaç duyulmayan özellikler eklenmeyerek, kod fazlalığı önlenmiştir.  
+- **Separation of Concerns** – Kodun farklı sorumluluklara ayrılması sağlanarak, katmanlı mimari prensiplerine uyulmuştur.  
+
+Bu prensiplere uyularak, kodun okunabilirliği ve sürdürülebilirliği artırılmıştır.  
 
 Bu doküman, proje hakkında genel bir bilgilendirme sunmaktadır.  
 
