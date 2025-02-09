@@ -8,6 +8,7 @@ Bu proje, kütüphanelerin kitap yönetimini kolaylaştırmak için geliştirilm
 
 ### 1. Tanım Ekranları
 Burada örnek olarak **Kitap Tanım** ekranı gösterilmektedir. Daha fazla bilgi için aşağıdaki **Tanımlar** bölümüne göz atabilirsiniz.
+Kitap Tanım ekranında her türlü kitap ekleme, güncelleme ve silme işlemleri gerçekleşmektedir.
 
 #### 📷 Kitap Ekleme Ekranı
 ![Kitap Ekleme Ekranı](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/KitapTanim.png)
@@ -15,14 +16,23 @@ Burada örnek olarak **Kitap Tanım** ekranı gösterilmektedir. Daha fazla bilg
 ### 2. Ödünç Alma & Verme İşlemleri
 Kütüphaneden kitap ödünç alma ve geri verme işlemlerinin yönetildiği ekrandır.
 
-#### 📷 Ödünç Alma & Verme Ekranı
-_(Buraya ödünç alma & verme ekranının resmi eklenmelidir)_
+#### 2.1 Ödünç Alma
+Kullanıcıların kütüphaneden kitap ödünç alma işlemlerini gerçekleştirdiği yerdir. Kullanıcı, almak istediği kitabı seçer ve sistem bu işlemi kayıt altına alarak kitabın o kullanıcıya ait olduğunu belirtir. Ayrıca, ödünç alma süresi ve teslim tarihi gibi bilgiler de burada belirlenir.
+
+#### 📷 Ödünç Alma Ekranı
+![Ödünç Alma Ekranı](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/OduncKitapAl.png)
+
+#### 2.2 Ödünç Verme Ekranı
+Kullanıcıların ödünç aldığı kitapları kütüphaneye geri iade ettiği işlemleri yönetir. Kullanıcı, teslim ettiği kitabı seçerek iade işlemini tamamlar. Eğer kitap teslim tarihi geçmişse, sistem gecikme süresini hesaplayarak gerekli uyarıları yapar.
+
+#### 📷 Ödünç Verme Ekranı
+![Ödünç Verme Ekranı](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/OduncKitapVer.png)
 
 ### 3. Ayarlar
 Her bir kütüphanenin kendine göre özelleştireceği **mail gönderme ayarları, kitap teslim tarihi gibi bilgilerin** tutulduğu ekrandır.
 
 #### 📷 Ayarlar Ekranı
-_(Buraya ayarlar ekranının resmi eklenmelidir)_
+![Ayarlar Ekranı](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/Ayarlar.png)
 
 ### 4. Rapor Modülü
 Kullanıcıların ödünç aldığı veya teslim etmediği kitapları gösteren rapor sayfalarını içerir.
@@ -31,19 +41,19 @@ Kullanıcıların ödünç aldığı veya teslim etmediği kitapları gösteren 
 Kullanıcının ödünç aldığı kitapların geçmişini gösteren rapordur.
 
 #### 📷 Kitap Geçmişi Raporu
-_(Buraya kitap geçmişi raporunun resmi eklenmelidir)_
+![Kitap Geçmişi Raporu](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/MevcutUyeKitapGecmisi.png)
 
 #### 4.2. Geciken Kitaplar
 Süresi geçmiş ve henüz teslim edilmemiş kitapları gösteren rapordur.
 
 #### 📷 Geciken Kitaplar Raporu
-_(Buraya geciken kitaplar raporunun resmi eklenmelidir)_
+![Geciken Kitaplar Raporu](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/GecikmisKitaplar.png)
 
 ### 5. Dashboard
 Kütüphaneye ait güncel özet verilerini gösteren ana sayfadır.
 
 #### 📷 Dashboard Ekranı
-_(Buraya dashboard ekranının resmi eklenmelidir)_
+![Dashboard Ekranı](https://raw.githubusercontent.com/senolsn/LibMaster/refs/heads/main/img/Dashboard.png)
 
 ---
 
@@ -66,4 +76,15 @@ Bu bölümde uygulamada kullanılan temel tanımlamalar mevcuttur. Her biri içi
 - **Mimari**: N Katmanlı Mimari
 - **API**: REST API
 
-Bu doküman, proje hakkında genel bir bilgilendirme sunmaktadır. Detaylı kurulum ve kullanım bilgileri için ilgili dökümantasyonlara göz atabilirsiniz.
+Bu doküman, proje hakkında genel bir bilgilendirme sunmaktadır.  
+
+📌 **Dikkat:**  
+Projemiz, **Uludağ Üniversitesi İnegöl İşletme Fakültesi** ve **Bursa Uludağ Üniversitesi Türk Devletleri ve Akraba Toplulukları Uygulama ve Araştırma Merkezi (TÜDAM)** tarafından kullanılmaktadır.  
+Bu nedenle, proje kaynak kodları gizli tutulmakta ve herkese açık olarak paylaşılmamaktadır.  
+
+📌 **Önceki Sürüm:**  
+Bu projenin eski sürümü **Windows Forms** tabanlı olarak geliştirilmiştir.  
+Önceki sürüme ulaşmak için aşağıdaki bağlantıyı ziyaret edebilirsiniz:  
+
+🔗 [Windows Forms Sürümü](https://github.com/senolsn/inif)
+
